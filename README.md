@@ -6,6 +6,7 @@
 - x Post -> date:date rational:text
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Features:
 - Approval Workflow
@@ -17,8 +18,11 @@
 
 ## UI:
 - x Bootstrap -> formatting
-- Icons from Font Awesome
+- x Icons from Font Awesome
 - x Update the styles for forms
 
-## Refactor TODOS:
-- Refactor user association integration test in posts_spec
+## TODOS:
+- Integrate validation for phone attribute in User:
+  # No spaces or dashes
+  # exactly 10 characters
+  # all characters have to be a number
