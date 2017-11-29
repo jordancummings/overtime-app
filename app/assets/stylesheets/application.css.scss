@@ -1,10 +1,9 @@
-/* app/assets/stylesheets/application.css.scss */
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "posts.scss";
 @import "gritter";
 @import "bourbon";
+@import "admin_homepage.css";
 
 .custom-nav {
   margin-top: 20px;
