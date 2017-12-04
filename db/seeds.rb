@@ -27,4 +27,3 @@ puts "3 audit logs have been created"
 end
 
 puts "100 Posts have been created"
-
